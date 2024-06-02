@@ -1,38 +1,39 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.home {
+  background-image: url("/src/images/bc.jpg");
+  background-repeat: repeat-x; 
+   background-size: cover;
+  /* background-color: darkblue; */
+  width: 50%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.imaged {
+  /* padding-left: 50px;
+  padding-top: 100px; */
+  border-color: black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.give {
+  color: whitesmoke;
+  padding-top: 140px;
+}
+
+.secCard {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.secCard h2 {
+  font-style: italic;
+  font-variant: small-caps;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+.centering {
+  padding-left: 20%;
+  font-variant: initial;
+  font-weight: bolder;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
