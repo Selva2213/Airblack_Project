@@ -106,12 +106,12 @@ function App() {
                       lable="Proffession"
                       required
                     >
-                      <MenuItem >Data Science</MenuItem>
-                      <MenuItem>System analysist</MenuItem>
-                      <MenuItem>Software Developer</MenuItem>
-                      <MenuItem >Frontend Developer</MenuItem>
-                      <MenuItem >Backend Developer</MenuItem>
-                      <MenuItem >Full stack Developer</MenuItem>
+                      <MenuItem value={'Data Science'}>Data Science</MenuItem>
+                      <MenuItem value={'System analysist'}>System analysist</MenuItem>
+                      <MenuItem value={'Software Developer'}>Software Developer</MenuItem>
+                      <MenuItem value={'Frontend Developer'}>Frontend Developer</MenuItem>
+                      <MenuItem value={'Backend Developer'}>Backend Developer</MenuItem>
+                      <MenuItem value={'FullStack Developer'}>FullStack Developer</MenuItem>
                     </Select>
                     <FormHelperText>Choose the most relevent option</FormHelperText>
                   </FormControl>
@@ -123,11 +123,11 @@ function App() {
                       lable="Proffession"
                       required                      
                     >
-                      <MenuItem >Show Long-term Vision</MenuItem>
-                      <MenuItem >Be Honest</MenuItem>
-                      <MenuItem >Authentic</MenuItem>
-                      <MenuItem >Be Specific </MenuItem>
-                      <MenuItem >Measurable</MenuItem>
+                      <MenuItem  value={'Show Long-term Vision'}>Show Long-term Vision</MenuItem>
+                      <MenuItem  value={'Be Honest'}>Be Honest</MenuItem>
+                      <MenuItem  value={'Authentic'}>Authentic</MenuItem>
+                      <MenuItem  value={'Be Specific'}>Be Specific </MenuItem>
+                      <MenuItem  value={'Measurable'}>Measurable</MenuItem>
                     </Select>
                     <FormHelperText>Choose the most relevent option</FormHelperText>
                   </FormControl>
@@ -139,11 +139,11 @@ function App() {
                       lable="Proffession"
                       required                      
                     >
-                      <MenuItem >Banglore</MenuItem>
-                      <MenuItem >Chennai</MenuItem>
-                      <MenuItem >Coimbatore</MenuItem>
-                      <MenuItem >Gurugram </MenuItem>
-                      <MenuItem >Mumbai</MenuItem>
+                      <MenuItem value={'Banglore'}>Banglore</MenuItem>
+                      <MenuItem value={'Chennai'}>Chennai</MenuItem>
+                      <MenuItem value={'Coimbatore'}>Coimbatore</MenuItem>
+                      <MenuItem value={'Gurugram'}>Gurugram </MenuItem>
+                      <MenuItem value={'Mumbai'}>Mumbai</MenuItem>
                     </Select>
                     <FormHelperText>Choose the most relevent option</FormHelperText>
                   </FormControl>
